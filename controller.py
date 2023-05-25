@@ -2,6 +2,7 @@ import view, model
 
 while True:
     view.menu()
+    
     key = int(input())
     if key == 1:
         model.add_contact()
@@ -11,3 +12,4 @@ while True:
         model.find_contact()
     else:
         break
+    
